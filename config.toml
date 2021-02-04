@@ -9,6 +9,11 @@ paginate = 3
 theme = "github.com/jonathanjanssens/hugo-casper3"
 title = "Hugo Themes"
 [[menu.main]]
+identifier = ""
+name = "happy"
+url = ""
+weight = nil
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"

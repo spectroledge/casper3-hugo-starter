@@ -41,6 +41,7 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.80.0
+  - ignoreErrors = ["error-remote-getjson"]=
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"

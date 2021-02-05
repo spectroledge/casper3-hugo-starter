@@ -48,6 +48,18 @@ fields:
   - type: text
     name: description
     label: description
+  - name: prova
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: pages
+        file: 
+        path: 
+    label: prova
   - type: file
     name: logo
     label: logo
